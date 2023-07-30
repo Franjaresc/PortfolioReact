@@ -45,3 +45,29 @@
     object-fit: cover;
     background: #fff;
   }
+
+  .remove-from-cart {
+    border-radius: 9999px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .remove-from-cart:hover {
+    background: #f00;
+    border: 1px solid #f00;
+  }
+
+  .add-to-cart {
+    border-radius: 9999px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .add-to-cart:hover {
+    background: #09f;
+    border: 1px solid #09f;
+  }

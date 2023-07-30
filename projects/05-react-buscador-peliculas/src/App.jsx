@@ -21,7 +21,7 @@ function App () {
     event.preventDefault()
     getMovies({ search })
   }
-  
+
   const handleChange = (event) => {
     const newSearch = event.target.value
     updateSearch(newSearch)
